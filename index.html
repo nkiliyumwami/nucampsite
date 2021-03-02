@@ -55,9 +55,54 @@
                     <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Sites</a></li>
                     <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
                 </ul>
+                <!--MODAL : Button(Login and Icon)-->
+                <span class="navbar-text ml-auto">
+                    <a  role="button" data-toggle="modal" data-target="#loginModal">
+                        <i class="fa fa-sign-in fa-lg"> Login</i>
+                    </a>
+                </span> 
             </div>
         </div>  
     </nav>
+    <!--MODAL: Content(Form and close button) -->
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Login</h3>
+                    <!--Close button-->
+                    <button type="button" data-dismiss="modal" class="close">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-12">
+                                    <label for="loginEmail" class="sr-only">Email address</label>
+                                    <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label for="loginPassword" class="sr-only">Password</label>
+                                    <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Enter password">
+                                </div>
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input">
+                                        <label class="form-check-label"> Remember me</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Cancel and Submit btn ( 2nd row)-->
+                            <div class="form-row">
+                                <button class="btn btn-secondary btn-sm ml-auto " type="button" data-dismiss="modal">Cancel</button>
+                                <button class="btn btn-primary btn-sm ml-2" type="submit">Login</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="container">
         <div class="row row-content align-items-center">
