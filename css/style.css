@@ -61,3 +61,8 @@ a, a:hover {
 .carousel {
     border: 3px solid rgba(0, 0, 0, 0.5);
 }
+
+/* Debugging label color (not showing initially: They "white by default) */
+label {
+    color: black;
+}
