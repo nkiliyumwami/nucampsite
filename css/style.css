@@ -66,3 +66,12 @@ a, a:hover {
 label {
     color: black;
 }
+
+/* Positionning PLAY and PAUSE BUTTONS to the right */
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+   
+}
