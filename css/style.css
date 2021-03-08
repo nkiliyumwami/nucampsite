@@ -67,11 +67,19 @@ label {
     color: black;
 }
 
-/* Positionning PLAY and PAUSE BUTTONS to the right */
+/* Positionning PLAY and PAUSE BUTTONS to the right before ugrading to one button 
 #carouselButton {
     position: absolute;
     right: 0;
     bottom: 0;
     z-index: 100;
    
+}
+*/
+/* Positionning PAUSE/PLAY BUTTON(upgraded to one button */
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
 }
