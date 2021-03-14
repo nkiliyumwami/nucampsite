@@ -36,10 +36,7 @@
                 </div>
                 <!--Reserve Campsite Button(Modal)--->
                 <div class="col-md-4 col-xl-2 mt-4">
-                    <button type="button" class="btn btn-info btn-lg mt-4 text-nowrap" role="button">
-                        <a data-toggle="modal" data-target="#reserveModal" class="text-white">Reserve Campsite</a>
-                    </button>
-                    
+                    <a id="reserveButton" role="button"  class="text-white btn btn-info btn-lg mt-4 text-nowrap">Reserve Campsite</a>
                 </div>
             </div>
         </div>
@@ -47,7 +44,7 @@
     <div id="reserveModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
-                <div class="modal-header bg-info text-white">
+                <div class="modal-header">
                     <h3 class="modal-title">Reserve a Campsite</h3>
                     <!--Close button-->
                     <button type="button" data-dismiss="modal" class="close">&times;</button>
@@ -125,7 +122,7 @@
                 </ul>
                 <!-- LOGIN MODAL : Button(Login and Icon)-->
                 <span class="navbar-text ml-auto">
-                    <a  role="button" data-toggle="modal" data-target="#loginModal">
+                    <a id="loginButton" role="button">
                         <i class="fa fa-sign-in fa-lg"> Login</i>
                     </a>
                 </span> 

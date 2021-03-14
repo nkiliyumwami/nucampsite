@@ -5,6 +5,7 @@ $color-pale: #cec8ff;
 $color-mid: #901CAD;
 $color-dark: #60106b;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
+$color-teal: #17a2b8;
 
 $body-font: 'Open Sans', sans-serif;
 $header-font: 'Lobster', cursive;
@@ -99,4 +100,19 @@ label {
     right: 0;
     bottom: 0;
     z-index: 100;
+}
+
+//Week 4 Assignment
+#reserveModal {
+    .modal-header {
+        background-color: $color-teal;
+        color: white;
+    }
+}
+
+#loginModal {
+    .modal-header {
+        background-color: $color-mid;
+        color: white;
+    }
 }
